@@ -31,6 +31,27 @@
             <artifactId>spring-webmvc</artifactId>
         </dependency>
 
+        <!-- JSON Processing -->
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-core</artifactId>
+            <!-- the guy uses 2.4.0 -->
+            <version>2.7.4</version>
+        </dependency>
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-annotations</artifactId>
+            <!-- the guy uses 2.4.0 -->
+            <version>2.7.4</version>
+        </dependency>
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-databind</artifactId>
+            <!-- the guy uses 2.4.0 -->
+            <version>2.7.4</version>
+        </dependency>
+
+
         <!-- Testing Dependencies -->
         <dependency>
             <groupId>junit</groupId>
@@ -44,6 +65,25 @@
             <artifactId>mockito-all</artifactId>
             <!-- the guy uses 1.9.5 -->
             <version>1.10.19</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-test</artifactId>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>javax.servlet-api</artifactId>
+            <!-- the guy uses 3.0.1 -->
+            <version>3.1.0</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.jayway.jsonpath</groupId>
+            <artifactId>json-path</artifactId>
+            <!-- the guy uses 0.9.1 -->
+            <version>2.2.0</version>
             <scope>test</scope>
         </dependency>
 
