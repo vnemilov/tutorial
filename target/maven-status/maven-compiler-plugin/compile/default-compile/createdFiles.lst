@@ -1,0 +1,5 @@
+tutorial\rest\resources\asm\BlogEntryResourceAsm.class
+tutorial\rest\mvc\BlogEntryController.class
+tutorial\core\entities\BlogEntry.class
+tutorial\core\services\BlogEntryService.class
+tutorial\rest\resources\BlogEntryResource.class

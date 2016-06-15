@@ -1,2 +1,5 @@
-C:\Users\vemilov\tutorials\basic-web-app\src\main\java\tutorial\entities\BlogEntry.java
-C:\Users\vemilov\tutorials\basic-web-app\src\main\java\tutorial\mvc\BlogEntryController.java
+C:\Users\vemilov\tutorials\basic-web-app\src\main\java\tutorial\rest\resources\asm\BlogEntryResourceAsm.java
+C:\Users\vemilov\tutorials\basic-web-app\src\main\java\tutorial\rest\mvc\BlogEntryController.java
+C:\Users\vemilov\tutorials\basic-web-app\src\main\java\tutorial\rest\resources\BlogEntryResource.java
+C:\Users\vemilov\tutorials\basic-web-app\src\main\java\tutorial\core\services\BlogEntryService.java
+C:\Users\vemilov\tutorials\basic-web-app\src\main\java\tutorial\core\entities\BlogEntry.java
